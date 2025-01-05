@@ -7,6 +7,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="logo-section">
+                    <img src="../Homepage/img/logo kapayelo.jpg" alt="Logo" class="logo">
+                    <a href="#" class="brand-name">CapiFy</a>
+                </div>
+                <div class="nav-items" id="navItems">
+                    <!-- Navigation items will be dynamically inserted by JavaScript -->
+                </div>
+                <button class="mobile-menu-button" id="mobileMenuButton" aria-label="Toggle menu" aria-expanded="false">
+                    <svg class="hamburger" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12h18M3 6h18M3 18h18"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
     <div class="container">
         <h1>Welcome to Financial Calculators</h1>
         <div class="calculator-grid">
@@ -48,5 +66,6 @@
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
